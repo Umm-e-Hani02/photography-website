@@ -418,7 +418,7 @@ a{
 @media(max-width:380px){
     #portfolio{
         background-color: rgb(222, 245, 160);
-        height: 700vh;
+        height: 740vh;
         padding: 20px 0; 
     }
     #portfolio-container{
