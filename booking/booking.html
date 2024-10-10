@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <form>
+        <h1>Book Your Photography Session!</h1>
+        <label for="name"></label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <br><br>
+    
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <br><br>
+    
+        <label for="phone"></label>
+        <input type="tel" id="phone" name="phone" placeholder="Contact no" required>
+        <br><br>
+    
+        <label for="date">Date of Booking:</label>
+        <input type="date" id="date" name="date" placeholder="Date" required>
+        <br><br>
+    
+        <label for="time">Time of Booking:</label>
+        <input type="time" id="time" name="time" placeholder="Time" required>
+        <br><br>
+    
+        <label for="event-type">Event Type:</label>
+        <select id="event-type" name="event-type">
+            <option value="wedding">Wedding</option>
+            <option value="birthday">Birthday</option>
+            <option value="corporate">Corporate Event</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+    
+        <label for="location">Event Location:</label>
+        <input type="text" id="location" name="location" required>
+        <br><br>
+    
+        <label for="notes">Special Requests or Notes:</label>
+        <textarea id="notes" name="notes"></textarea>
+        <br><br>
+    
+        <button type="submit">Book Now!</button>
+        <button type="reset">Reset</button>
+        <button>
+            <a href="/index.html">Back</a>
+        </button>        
+    </form>
+</body>
+</html>
